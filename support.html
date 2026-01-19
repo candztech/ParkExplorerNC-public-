@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Explorer NC - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #34d399 0%, #06b6d4 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        section:last-child {
+            margin-bottom: 0;
+        }
+        
+        h2 {
+            color: #1f2937;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #34d399;
+            display: inline-block;
+        }
+        
+        h3 {
+            color: #374151;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #4b5563;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            color: #4b5563;
+        }
+        
+        .contact-box {
+            background: #f3f4f6;
+            border-left: 4px solid #34d399;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .contact-box a {
+            color: #059669;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .issue-item {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .issue-item h4 {
+            color: #92400e;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        
+        .issue-item p {
+            color: #78350f;
+            margin-bottom: 0;
+        }
+        
+        .bug-steps {
+            background: #e0f2fe;
+            border-left: 4px solid #0284c7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .bug-steps ol {
+            margin-left: 20px;
+        }
+        
+        .bug-steps li {
+            color: #075985;
+            margin-bottom: 12px;
+        }
+        
+        footer {
+            background: #f9fafb;
+            padding: 30px;
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.9em;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            color: #1f2937;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+        
+        .faq-answer {
+            color: #4b5563;
+            padding-left: 15px;
+        }
+        
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏞️ Park Explorer NC</h1>
+            <p>Support & Information</p>
+        </header>
+        
+        <div class="content">
+            <!-- FAQ Section -->
+            <section id="faq">
+                <h2>Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: What parks are included in the app?</div>
+                    <div class="faq-answer">A: Park Explorer NC includes all North Carolina State Parks. Park data is sourced from publicly available information and government resources.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: How often is park information updated?</div>
+                    <div class="faq-answer">A: Park data is updated periodically, but may not reflect the most current information. Always verify critical details like operating hours, fees, and trail conditions with official park sources before visiting.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: Can I use the app offline?</div>
+                    <div class="faq-answer">A: Basic park information can be accessed offline after it has been loaded. However, maps and directions require an active internet connection.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: Why do I need to accept the disclaimer?</div>
+                    <div class="faq-answer">A: The disclaimer outlines the terms of use and reminds users that outdoor activities involve inherent risks. It's important that users understand they are responsible for their own safety when visiting parks.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: Is my location data shared or stored?</div>
+                    <div class="faq-answer">A: Location data is only used locally on your device to help you find nearby parks and get directions. We do not collect, store, or share your location information.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q: How do I get directions to a park?</div>
+                    <div class="faq-answer">A: Tap on any park to view its details, then use the "Get Directions" button to open directions in Apple Maps.</div>
+                </div>
+            </section>
+            
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you! Whether you have questions, feedback, or just want to share your park adventures, feel free to reach out.</p>
+                
+                <div class="contact-box">
+                    <p><strong>Email:</strong></p>
+                    <a href="mailto:info@candztech.com">info@candztech.com</a>
+                </div>
+                
+                <p style="margin-top: 20px;">We typically respond to inquiries within 1-2 business days.</p>
+            </section>
+            
+            <!-- Known Issues Section -->
+            <section id="known-issues">
+                <h2>Known Issues</h2>
+                <p>We're aware of the following issues and are working on fixes:</p>
+                
+                <div class="issue-item">
+                    <h4>📍 Location Accuracy</h4>
+                    <p>Some park coordinates may be approximate and might not reflect the exact entrance or main facility location. Always follow official park signage.</p>
+                </div>
+                
+                <div class="issue-item">
+                    <h4>🗺️ Map Display on Older Devices</h4>
+                    <p>Users with older iOS devices may experience slower map rendering when viewing multiple parks simultaneously.</p>
+                </div>
+                
+                <div class="issue-item">
+                    <h4>🔍 Search Functionality</h4>
+                    <p>Search results are currently limited to park names. We're working on adding support for searching by amenities, activities, and regions.</p>
+                </div>
+                
+                <p style="margin-top: 25px; font-style: italic;">Note: These issues are actively being addressed in upcoming updates.</p>
+            </section>
+            
+            <!-- Bug Reporting Section -->
+            <section id="bug-reporting">
+                <h2>How to Report Bugs</h2>
+                <p>Found a bug or experiencing an issue? Help us improve Park Explorer NC by reporting it!</p>
+                
+                <div class="bug-steps">
+                    <h3>To report a bug, please include:</h3>
+                    <ol>
+                        <li><strong>Description:</strong> What happened? What did you expect to happen?</li>
+                        <li><strong>Steps to reproduce:</strong> What actions led to the issue?</li>
+                        <li><strong>Device information:</strong> iPhone/iPad model and iOS version</li>
+                        <li><strong>Screenshots:</strong> If possible, include screenshots showing the problem</li>
+                        <li><strong>App version:</strong> Check Settings > Info for the version number</li>
+                    </ol>
+                </div>
+                
+                <div class="contact-box" style="margin-top: 20px;">
+                    <p><strong>Send bug reports to:</strong></p>
+                    <a href="mailto:info@candztech.com?subject=Park%20Explorer%20NC%20-%20Bug%20Report">info@candztech.com</a>
+                    <p style="margin-top: 10px; margin-bottom: 0; color: #6b7280; font-size: 0.95em;">Subject: Park Explorer NC - Bug Report</p>
+                </div>
+                
+                <p style="margin-top: 20px;">Thank you for helping us make Park Explorer NC better for everyone!</p>
+            </section>
+        </div>
+        
+        <footer>
+            <p><strong>Park Explorer NC</strong></p>
+            <p>Your guide to North Carolina State Parks</p>
+            <p style="margin-top: 15px;">© 2026 C&Z Tech. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
